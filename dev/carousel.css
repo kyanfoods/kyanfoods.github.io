@@ -92,6 +92,13 @@ body {
   letter-spacing: -1px;
 }
 
+.featurette-paragraph {
+  font-weight: 200;
+  font-size: 200%;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -129,6 +136,9 @@ body {
 
 @media (min-width: 992px) {
   .featurette-heading {
+    margin-top: 120px;
+  }
+  .featurette-paragraph {
     margin-top: 120px;
   }
 }
